@@ -5,10 +5,10 @@ $game = $_POST["submit"];
 $code = rand(1000, 9999);
 
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "drunknet";
+$servername = "dbhost.cs.man.ac.uk";
+$username = "k01092tr";
+$password = "az094567";
+$dbname = "k01092tr";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 $gameIdentifier = 'G';

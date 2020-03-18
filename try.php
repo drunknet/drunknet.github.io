@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "drunknet";
+$servername = "dbhost.cs.man.ac.uk";
+$username = "k01092tr";
+$password = "az094567";
+$dbname = "k01092tr";
 // Create connection
 
 $conn = new mysqli($servername, $username, $password,$dbname);

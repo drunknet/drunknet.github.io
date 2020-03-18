@@ -87,7 +87,7 @@ if ($conn->query($sql) === TRUE) {
   echo "Error creating game: " . $conn->error;
 }
 //INSERT FIRST QUESTION IF YOU DONT COMMENT THIS IT WILL ADD THIS QUESTON INFINITELY MANY TIMES
-/*
+
 $insert ="INSERT INTO barquiz (Question, Answer1, Answer2, Answer3)
 VALUES ('Who wrote Hunger Games Trilogy?', 'Suzanne Collins', 'J.R.R. Tolkien', 'Isaac Asimov')";
 if ($conn->query($insert) === TRUE) {
@@ -167,7 +167,7 @@ if ($conn->query($insert) === TRUE) {
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
-*/
+
 
 // GET QUESTIONS AND ANSWERS FROM TABLE barquiz
 $quest = "SELECT Question, Answer1, Answer2, Answer3 from barquiz";

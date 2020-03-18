@@ -53,10 +53,10 @@ header{
 <header> <img src="drunk.png" alt="trippy"> </header>
 </body>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "drunknet";
+$servername = "dbhost.cs.man.ac.uk";
+$username = "k01092tr";
+$password = "az094567";
+$dbname = "k01092tr";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 echo ' Hi ' .$_POST["name"]. ' in game' .$_POST["code"];

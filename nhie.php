@@ -51,10 +51,10 @@ body {
 </body>
 <?php
 error_reporting(0);
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "drunknet";
+$servername = "dbhost.cs.man.ac.uk";
+$username = "k01092tr";
+$password = "az094567";
+$dbname = "k01092tr";
 // $numberOfAnsweredQuestion = (int) $_POST['numberOfAnsweredQuestion']+1;
 $numberOfAnsweredQuestion=$_POST['numberOfAnsweredQuestion']+1;
 
@@ -76,39 +76,39 @@ if ($conn->query($sql) === TRUE) {
 }
 
 
-// $delete = 'DELETE FROM statements';
-//
-// $insert ="INSERT INTO statements (Question)
-// VALUES ('Attempted to dance like Ricardo Milos')";
-// if ($conn->query($insert) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-// }
-//
-// $insert ="INSERT INTO statements (Question)
-// VALUES ('Stole somebodys diamonds in Minecraft')";
-// if ($conn->query($insert) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-// }
-//
-// $insert ="INSERT INTO statements (Question)
-// VALUES ('Used Ugandan Knuckles memes in 2020')";
-// if ($conn->query($insert) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-// }
-//
-// $insert ="INSERT INTO statements (Question)
-// VALUES ('Blasted Caramelldansen')";
-// if ($conn->query($insert) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-// }
+ $delete = 'DELETE FROM statements';
+
+ $insert ="INSERT INTO statements (Question)
+ VALUES ('Attempted to dance like Ricardo Milos')";
+ if ($conn->query($insert) === TRUE) {
+     echo "New record created successfully";
+ } else {
+     echo "Error: " . $sql . "<br>" . $conn->error;
+ }
+
+ $insert ="INSERT INTO statements (Question)
+ VALUES ('Stole somebodys diamonds in Minecraft')";
+ if ($conn->query($insert) === TRUE) {
+     echo "New record created successfully";
+ } else {
+     echo "Error: " . $sql . "<br>" . $conn->error;
+ }
+
+ $insert ="INSERT INTO statements (Question)
+ VALUES ('Used Ugandan Knuckles memes in 2020')";
+ if ($conn->query($insert) === TRUE) {
+     echo "New record created successfully";
+ } else {
+     echo "Error: " . $sql . "<br>" . $conn->error;
+ }
+
+ $insert ="INSERT INTO statements (Question)
+ VALUES ('Blasted Caramelldansen')";
+ if ($conn->query($insert) === TRUE) {
+     echo "New record created successfully";
+ } else {
+     echo "Error: " . $sql . "<br>" . $conn->error;
+ }
 if ($numberOfAnsweredQuestion>=6){
   echo "<br>END OF THE GAME <br>";
   if(isset($_POST["Yes"])){

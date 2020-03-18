@@ -22,10 +22,10 @@ Welcome <?php echo $name; ?><br>
 
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "drunknet";
+$servername = "dbhost.cs.man.ac.uk";
+$username = "k01092tr";
+$password = "az094567";
+$dbname = "k01092tr";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 $sql = "SELECT * FROM games WHERE code = '".$code."'";
