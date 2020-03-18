@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 <?php
-<?php
-$database_host = "dbhost.cs.man.ac.uk";
-$database_user = "k01092tr";
-$database_pass = "<the password you set>";
-$database_name = "k01092tr";
-?>
 
 $servername = "dbhost.cs.man.ac.uk";
 $username = "k01092tr";
