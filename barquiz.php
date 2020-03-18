@@ -66,10 +66,10 @@ header{
 <header> <img src="drunk.png" alt="trippy"> </header>
 </body>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "drunknet";
+$servername = "dbhost.cs.man.ac.uk";
+$username = "k01092tr";
+$password = "az094567";
+$dbname = "k01092tr";
 // Create connection
 
 echo ' Hi ' .$_POST["name"]. ' in game' .$_POST["code"];
