@@ -1,0 +1,28 @@
+
+
+body {
+    margin-top:10px;
+}
+
+button{
+  background-color: red;
+  color: blue;
+}
+
+input[type=button], input[type=submit], input[type=text] {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+ background-color: transparent;
+
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+#q1button1 {
+    background-color: black;
+}
